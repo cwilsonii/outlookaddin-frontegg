@@ -16,9 +16,6 @@ export class AuthService {
    */
   public loginWithRedirect(): void {
     this.fronteggAuthService.loginWithRedirect({
-      tenantId: '11556d0a-a913-49aa-b111-ddb4fa2e8a8f',
-      organization: 'softdocsai',
-      prompt: 'login',
       redirect_uri: `${window.location.origin}/dialog`
     });
   }

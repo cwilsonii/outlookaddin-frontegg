@@ -14,8 +14,8 @@ import { DialogComponent } from './components/dialog/dialog.component';
     AppRoutingModule,
     FronteggAppModule.forRoot({
       contextOptions: {
-        baseUrl: 'https://login.softdocsdev.cloud',
-        clientId: 'af19eb4a-0f2a-4de6-8f08-620ca3ac673c'
+        baseUrl: 'YOUR FRONTEGG BASE_URL HERE',
+        clientId: 'YOUR FRONTEGG CLIENT ID HERE'
       },
       hostedLoginBox: true,
       authOptions: { keepSessionAlive: true }
